@@ -1,0 +1,189 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  /* color: #444444; */
+}
+
+a {
+  color: #006fbe;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #008df1;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+
+.parent {
+  /* background-color: #000000; */
+  padding-top: 10vh;
+  display: flex;
+  /* background: red; */
+  width: 100%;
+  height: fit-content;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.head {
+
+  color: rgb(255, 255, 255);
+  width: 100%;
+  /* background: blue; */
+  justify-content: center;
+  text-align: center;
+  height: auto;
+
+}
+
+.head h1 {
+  font-family: "Protest Guerrilla", sans-serif;
+  font-stretch: expanded;
+  font-style: normal;  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2.7rem;
+}
+
+.abt h2 {
+  font-family: "Syne Mono", monospace;
+  font-weight: 750;
+  font-style: normal;  
+  font-size: 1.44rem;
+  color: rgba(117, 169, 190, 0.545);
+}
+
+.abt {
+
+  /* color: aliceblue; */
+  color: rgb(85, 87, 74);
+  padding-top: 2vh;
+  padding-left: 11vw;
+  padding-right: 11vw;
+  width: 100vw;
+  /* background: greenyellow; */
+  text-align: center;
+  bottom: 3vh;
+}
+
+/* End of NJ's CSS */
+
+
+
+
+
+
+
+
+
+
+
+
+.card{
+  top: 6vh;
+  padding-top: 10vh;
+}
+
+.container{
+  /* background: rgba(0, 0, 0, 0.273); */
+}
+
+
+.event-list{
+  /* background: black; */
+}
+
+.event-list .card {
+  border: 0;
+  padding: 0 30px;
+  margin-bottom: 60px;
+  position: relative;
+}
+
+.event-list .card-img {
+  width: calc(100% + 60px);
+  margin-left: -30px;
+  overflow: hidden;
+  z-index: 9;
+  border-radius: 0;
+}
+
+.event-list .card-img img {
+  max-width: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.event-list .card-body {
+  z-index: 10;
+  background: #d9e7d6d6;
+  border-top: 4px solid #fbbd02;
+  padding: 30px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  margin-top: -60px;
+  transition: 0.3s;
+}
+
+.event-list .card-title {
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #24325d;
+}
+
+.event-list .card-title a {
+  color: #24325d;
+  transition: 0.3s;
+}
+.event-list .card-title:hover {
+  font-weight: bold;
+  color: #020202;
+  transition: 0.3s;
+}
+
+.event-list .card-text {
+  color: #5e5e5e;
+}
+
+.event-list .read-more a {
+  color: #777777;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  transition: 0.3s;
+}
+
+.event-list .read-more a:hover {
+  color: #006fbe;
+}
+
+.event-list .card:hover img {
+  transform: scale(1.1);
+}
+
+.event-list .card:hover .card-body {
+  border-color: #13be00;
+}
+
+.event-list .card:hover .card-body .card-title a {
+  color: #006fbe;
+}
+
+
+@media (max-width: 800px) {
+  h2 {
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 2.4rem;
+  }
+}

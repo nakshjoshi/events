@@ -1,0 +1,25 @@
+main
+parent
+head
+abt
+
+
+event-list
+container
+row
+col-md-6 d-flex align-items-stretch
+card
+card-img
+card-body
+card-title
+fst-italic text-center
+card-text
+
+
+
+
+
+
+
+
+
